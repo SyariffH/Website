@@ -1,2 +1,2 @@
-# Webite
-Simple website from me
+# Syll-Website
+My Simple website
