@@ -1,7 +1,7 @@
 new Vue({
   el: "#app",
   data() {
-    https://img.youtube.com/vi/${id}/maxresdefault.jpg
+    //https://img.youtube.com/vi/${id}/maxresdefault.jpg
     return {
       audio: null,
       circleLeft: null,
@@ -27,9 +27,17 @@ new Vue({
           favorited: false
         },
         {
+          name: "Est-ce que tu m'aimes?",
+          artist: "GIMS",
+          cover: "https://img.youtube.com/vi/EXBC3VQttsw/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/gims-est-ce-que-tu-maimes-speed-up-tik-tok-version-128-ytshorts.savetube.me.mp3",
+          url: "https://youtu.be/EXBC3VQttsw?si=8t4H0U6faOKD20sp",
+          favorited: false
+        },
+        {
           name: "Dj Dinasty by Manok",
           artist: "Dj Alpin Remix",
-          cover: "https://img.youtube.com/vi/LmRiSWv-dnE?/maxresdefault.jpg",
+          cover: "https://img.youtube.com/vi/LmRiSWv-dnE/maxresdefault.jpg",
           source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20DYNASTY%20BY%20MANOK%20VIRAL%20TIK%20TOK%20TERBARU%202024!!.mp3",
           url: "https://youtu.be/LmRiSWv-dnE?si=4prztk5CM_r8G2rk",
           favorited: false
