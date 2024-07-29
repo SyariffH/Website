@@ -11,6 +11,30 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
+          name: "Koiiro Kobo AI Cover",
+          artist: "Kobo Kanaeru Holo ID",
+          cover: "https://img.youtube.com/vi/T2tN4EJgXYE/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/%E3%80%90Kobo%20Kanaeru%E3%80%91%E6%81%8B%E8%89%B2Koiiro%20-%20Mosawo%20Acoustic%20AI%20Cover%20%20KAN-ROM-IND%20Color%20Coded%20Lyrics.mp3",
+          url: "https://youtu.be/T2tN4EJgXYE?si=nJ9kkTC69vbKBorT",
+          favorited: false
+        },
+        {
+          name: "Kawaikute Gomen Zeta Cover",
+          artist: "Vestia Zeta Holo ID",
+          cover: "https://img.youtube.com/vi/WDueRRGIKzw/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/%E5%8F%AF%E6%84%9B%E3%81%8F%E3%81%A6%E3%81%94%E3%82%81%E3%82%93%20%20Kawaikute%20Gomen%20%E3%80%90Cover%20%E2%99%A1%20Vestia%20Zeta%E3%80%91.mp3",
+          url: "https://youtu.be/WDueRRGIKzw?si=wFV8-T7J0b_3PY-v",
+          favorited: false
+        },
+        {
+          name: "Gyutto Zeta Cover",
+          artist: "Vestia Zeta Holo ID",
+          cover: "https://img.youtube.com/vi/3Fb7Qv36of4/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/%E3%80%90Cover%E3%80%91%E3%81%8E%E3%82%85%E3%81%A3%E3%81%A8%E3%80%82(Gyutto)%20%20Vestia%20Zeta%20%E3%80%90Bossa%20Nova%E3%80%91.mp3",
+          url: "https://youtu.be/3Fb7Qv36of4?si=mAhTHTyw4cyvbJbL",
+          favorited: false
+        },
+        {
           name: "Seishun no Archive",
           artist: "Blue Archive",
           cover: "https://img.youtube.com/vi/H3-6keTNfJQ/maxresdefault.jpg",
@@ -27,6 +51,14 @@ new Vue({
           favorited: false
         },
         {
+          name: "Seandainya",
+          artist: "Viera",
+          cover: "https://img.youtube.com/vi/slCtw5FF-Qk/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/Seandainya%20-%20Vierra%20%20Lirik%20Lagu.mp3",
+          url: "https://youtu.be/slCtw5FF-Qk?si=h4RIGl_brsrkYtlE",
+          favorited: false
+        },
+        {
           name: "Est-ce que tu m'aimes?",
           artist: "GIMS",
           cover: "https://img.youtube.com/vi/EXBC3VQttsw/maxresdefault.jpg",
@@ -34,6 +66,47 @@ new Vue({
           url: "https://youtu.be/EXBC3VQttsw?si=8t4H0U6faOKD20sp",
           favorited: false
         },
+        {
+          name: "Dj Sweet Love Kharis Sopan",
+          artist: "Dj Apin Rimex",
+          cover: "https://img.youtube.com/vi/6vS8ucvLh28/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20SWEET%20LOVE%20KHARIS%20SOPAN%20SOUND%20Caro%20VIRAL%20TIK%20TOK%20TERBARU%202024!!.mp3",
+          url: "https://youtu.be/6vS8ucvLh28?si=GUAAvz4eaw8MGqRp",
+          favorited: false
+        },
+        {
+          name: "Dj Geser Kiri Kanan",
+          artist: "XPUTZ RMX",
+          cover: "https://img.youtube.com/vi/GMfh8cDTdPM/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20GESER%20KIRI%20KANAN%20BREAKFUNK%20SOUND%20%E2%86%AFF%C3%A0ll%20%F0%9D%99%8F%F0%9D%99%A4%F0%9D%99%A5%E2%99%AC%F0%9F%83%8F%F0%9F%8C%A0%20VIRAL%20TIK%20TOK%20TERBARU%202024%20!!!.mp3",
+          url: "https://youtu.be/GMfh8cDTdPM?si=8rzBtmiF0a0bY7xl",
+          favorited: false
+        },
+        {
+          name: "Dj Matame Matame",
+          artist: "XPUTZ RMX",
+          cover: "https://img.youtube.com/vi/wMlI8Dgjoq4/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20MATAME%20MATAME%20REMIX%20%5BDROP%20PLAT%20NGW%5D%20SOUND%20MASKHAT%204RACK%20VIRAL%20TIK%20TOK%20TERBARU%202024%20!!!.mp3",
+          url: "https://youtu.be/wMlI8Dgjoq4?si=OI7a0BAgVNQkexlW",
+          favorited: false
+        },
+        {
+          name: "Dj Always",
+          artist: "Dj Cantik",
+          cover: "https://img.youtube.com/vi/MJEhAj7lcfs/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20ALWAYS%20Slow%20TikTok%20Remix%20_%20Terbaru%202021%20(DJ%20Cantik%20Remix)%20%20%20DJ%20ALWAYS%20Slow%20TikTok%20Remix%20Viral.mp3",
+          url: "https://youtu.be/MJEhAj7lcfs?si=lktr2paWyMAMuVBA",
+          favorited: false
+        },
+        {
+          name: "Dj All The Kids Are Depresed",
+          artist: "Dj Komang Rimex",
+          cover: "https://img.youtube.com/vi/enOF7pT3Dh0/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/DJ%20ALL%20THE%20KIDS%20ARE%20DEPRESSED%20JEDAG%20JEDUG%20FULL%20BEAT%20VIRAL%20TIKTOK%20TERBARU%202022%20%20DJ%20KOMANG%20RIMEX.mp3",
+          url: "https://youtu.be/enOF7pT3Dh0?si=Pfisw8TW4iSjHyil",
+          favorited: false
+        },
+        
         {
           name: "Dj Dinasty by Manok",
           artist: "Dj Alpin Remix",
