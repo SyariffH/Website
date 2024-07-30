@@ -11,6 +11,14 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
+          name: "Re Aoharu x Luminous Memory",
+          artist: "Pachi",
+          cover: "https://img.youtube.com/vi/g_m2jUeWV4w/maxresdefault.jpg",
+          source: "https://github.com/SyariffH/Media/raw/main/Audio/RE%20Aoharu%20x%20Luminous%20Memory%20-%20Blue%20Archive%20OST%20(Fan%20Remix).mp3",
+          url: "https://youtube.com/watch?v=g_m2jUeWV4w",
+          favorited: false
+        },
+        {
           name: "Koiiro Kobo AI Cover",
           artist: "Kobo Kanaeru Holo ID",
           cover: "https://img.youtube.com/vi/T2tN4EJgXYE/maxresdefault.jpg",
